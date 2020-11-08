@@ -1,3 +1,4 @@
+def game_start
 # Ask user for their name
 puts "Hi there contestant! What's your name?"
 print '> '
@@ -67,4 +68,15 @@ if user_num == num_to_guess
 else 
   puts "Aw, too bad, #{name}. The answer was #{num_to_guess}. You were within #{num_to_guess-user_num}. Better luck next time."
 end
+end
+game_start
 
+r_game = 0
+
+def restart_game 
+  until r_game == 'quit'
+    puts " "
+    r_game = gets.chomp
+    if r_game ==
+  end
+end
